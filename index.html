@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <img onclick="window.location.href='index.html'" src="images/LogoCodex.png" alt="">
+        <div class="navigation">
+            <ul>
+                <li><a href="#" class="active">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="./course.html" id="virtual-courses-dropdown-toggle">Cursos <i
+                            class="fas fa-chevron-down"></i></a>
+                    <ul id="virtual-courses-dropdown" class="dropdown-menu">
+                        <li><a href="./courses/course_py.html">Python</a></li>
+                        <li><a href="./courses/course_js.html">Javascript</a></li>
+                        <li><a href="./courses/course_desarrolloweb.html">Desarrollo Web</a></li>
+                        <li><a href="./courses/course_diseñoUxUi.html">UX|UI Design</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">Nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="join.html">WhatsApp</a></li>     
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!--Inicio Home -->
+    <section id="home">
+        <h2>Codea tu futuro!</h2>
+        <div class="btn">
+            <a class="blue" href="#features">Ver mas</a>
+            <a class="yellow" href="#course">Ver Cursos</a>
+        </div>
+    </section>
+    <!-- Fin Home -->
+    <!-- Inicio Bloque "Potencia tu Comunidad"-->
+    <section id="features">
+        <h1>Potencia tu Comunidad</h1>
+        <p class="juju">Somos una empresa que enfoca su crecimiento
+            y expancion dentro de entidades educativas,
+            brindando cursos de programacion extracurriculares
+            de manera presencial y virtual como extension academica!</p>
+        <div class="center-content">
+            <div class="fea-base">
+                <div class="fea-box zoom-effect">
+                    <i class="fas fa-file-certificate"></i>
+                    <h3>Modalidad Presencial</h3>
+                </div>
+                <div class="fea-box zoom-effect">
+                    <i class="fas fa-file-certificate"></i>
+                    <h3>Modalidad Virtual</h3>
+                </div>
+                <div class="fea-box zoom-effect">
+                    <i class="fas fa-award"></i>
+                    <h3>Certificacion Oficial</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fin Bloque "Potencia tu Comunidad"-->
+    <!-- Inicio Bloque Cursos -->
+    <section id="course">
+        <h1>Nuestros Cursos</h1>
+        <div class="course-box">
+            <div class="courses">
+                <a href="./courses/course_py.html">
+                    <img src="images/b3.jpg" alt="">
+                    <div class="details">
+                        <h6>Python</h6>
+                        <span>3 Cuotas sin interes!</span>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(99)</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="courses">
+                <a href="tu_pagina_destino2.html">
+                    <img src="images/b3.jpg" alt="">
+                    <div class="details">
+                        <h6>Desarrollo Web</h6>
+                        <span>3 Cuotas sin interes!</span>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(35)</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="courses">
+                <a href="tu_pagina_destino.html">
+                    <img src="images/b3.jpg" alt="">
+                    <div class="details">
+                        <h6>Diseño UX|Ui</h6>
+                        <span>3 Cuotas sin interes!</span>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(55)</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Fin Bloque Cursos -->
+    <!-- Inicio Bloque Servicios (Reutilice codigo de "Section Courses") -->
+    <section id="features">
+        <section id="trust">
+            <h2>Empresas que confian en Codex</h2>
+            <div class="trust-images">
+                <img src="images/LogoVillada.jpg" alt="">
+                <img src="images/LogoDownsUp.jpg" alt="">
+                <img src="images/LogoZonabot.jpg" alt="">
+            </div>
+        </section>
+        <section id="coursE">
+            <h1>Servicios</h1>
+            <div class="coursE-boX">
+                <div class="courseS">
+                    <div class="detailS">
+                        <h6 class="tittleBoX">Modalidad Presencial</h6>
+                        <p>Pensado para aquellas entidades educativas que buscan
+                            generar una actividad extracurricular</p>
+                    </div>
+                    <img src="images/ModalidadPresencial.jpg" alt="">
+                </div>
+                <div class="courseS">
+                    <div class="detailS">
+                        <h6 class="tittleBoX">Modalidad Virtual</h6>
+                        <p>Tenemos una variedad de cursos disponibles para realizar
+                            de manera virtual
+                        </p>
+                    </div>
+                    <img src="images/c5.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- <section id="registration">
+        <div class="form">
+            <h3>Complete el formulario</h3>
+            <input type="text" name="" id="" placeholder="Nombre:">
+            <input type="text" name="" id="" placeholder="Número:">
+            <input type="text" name="" id="" placeholder="Curso:">
+            <div class="btn">
+                <a class="yellow" href="#">Enviar!</a>
+            </div>
+        </div>
+    </section>  -->
+
+    <section id="experts">
+        <h1>Nuestros Expertos</h1>
+        <div class="expert-box">
+            <div class="profile">
+                <img src="images/pro1.jpg" alt="" width="90%" class="imgg">
+                <h6>Gabriel Muñoz</h6>
+                <p>Front End Developer</p>
+                <div class="pro-link">
+                    <a href="https://www.facebook.com/profile.php?id=100004831504763" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/gabiagustin_/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gabiagustin/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images/pro2.jpg" alt="" width="90%">
+                <h6>Diego Agostini</h6>
+                <p>Robotics Expert</p>
+                <div class="pro-link">
+                    <a href="https://www.facebook.com/diegoandres.agostini" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/zonabot/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/diego-agostini-5b7292239/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images/pro2.jpg" alt="" width="90%">
+                <h6>Genaro Lambertucci</h6>
+                <p>Full Stack Developer</p>
+                <div class="pro-link">
+                    <a href="https://www.facebook.com/gena.lambertucci" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/genalambertucci/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/genarolambertucci/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images/3.png" alt="" width="90%">
+                <h6>Santiago Henderson</h6>
+                <p>Web Designer</p>
+                <div class="pro-link">
+                    <a href="https://www.facebook.com/santiago.henderson.5" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/santi_henderson/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/santiago-henderson-779777180/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Buscar</h3>
+            <li>Inicio</li>
+            <li>Cursos</li>
+            <li>Nosotros</li>
+            <li>Contacto</li>
+        </div>
+        <div class="footer-col">
+            <h3>Subscribite</h3>
+            <p>Recibiras correos con novedades!</p>
+            <div class="subscribe">
+                <input type="text" name="" placeholder="Direccion de correo" id="">
+                <a class="yellow" href="#">Go!</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="pro-link">
+                <a href="https://www.instagram.com/codexlearning/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/codexlearning/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script> 
+        $("#menu-btn").click(function () {
+            $("nav .navigation ul").addClass("active");
+        });
+        $("#menu-close").click(function () {
+            $("nav .navigation ul").removeClass("active");
+        });
+        const backgroundImages = [
+            "images/Python",
+            "images/Html.png",
+            "images/Javascript.png",
+            "images/Web.png",
+        ];
+
+        let currentIndex = 0;
+        const backgroundElement = document.querySelector(".background-images");
+
+        // Precargar imágenes para evitar el parpadeo
+        const imageCache = [];
+        for (const imageUrl of backgroundImages) {
+            const img = new Image();
+            img.src = imageUrl;
+            imageCache.push(img);
+        }
+
+        function changeBackgroundImage() {
+            currentIndex = (currentIndex + 1) % backgroundImages.length;
+            const nextImage = backgroundImages[currentIndex];
+
+            // Cambia la imagen de fondo sin efectuar una transición
+            backgroundElement.style.transition = "none";
+            backgroundElement.style.backgroundImage = `url(${nextImage})`;
+
+            // Vuelve a habilitar la transición después de un breve retraso
+            setTimeout(() => {
+                backgroundElement.style.transition = "opacity 1s ease-in-out";
+            }, 10);
+        }
+
+        changeBackgroundImage();
+
+        // Establece un intervalo que cambia la imagen cada 2000 milisegundos (2 segundos)
+        const intervalId = setInterval(changeBackgroundImage, 2000);
+
+        // Reinicia el ciclo cuando llega a la última imagen
+        backgroundElement.addEventListener("transitionend", function () {
+            if (currentIndex === backgroundImages.length - 1) {
+                currentIndex = -1; // Reinicia al principio del array
+            }
+        });
+
+        // Limpia el intervalo para evitar fugas de memoria cuando la página se cierra o cambia
+        window.addEventListener("unload", function () {
+            clearInterval(intervalId);
+        });
+
+        //Navbar
+        document.addEventListener("DOMContentLoaded", function () {
+    const coursesDropdownToggle = document.getElementById("courses-dropdown-toggle");
+    const coursesDropdown = document.getElementById("courses-dropdown");
+    const chevronIcon = coursesDropdownToggle.querySelector("i.fas.fa-chevron-down");
+
+    coursesDropdownToggle.addEventListener("click", function (event) {
+        event.preventDefault();
+        coursesDropdown.classList.toggle("show");
+        chevronIcon.classList.toggle("rotate"); // Agregar o quitar la clase "rotate"
+    });
+
+    document.addEventListener("click", function (event) {
+        if (!coursesDropdown.contains(event.target) && event.target !== coursesDropdownToggle) {
+            coursesDropdown.classList.remove("show");
+            chevronIcon.classList.remove("rotate"); // Quitar la clase "rotate"
+        }
+    });
+
+    document.getElementById("menu-close").addEventListener("click", function () {
+        coursesDropdown.classList.remove("show");
+        chevronIcon.classList.remove("rotate"); // Quitar la clase "rotate"
+    });
+});
+
+    </script>
+
+</body>
+
+</html>
